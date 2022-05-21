@@ -6,5 +6,5 @@ import react from "@astrojs/react";
 export default defineConfig({
   integrations: [react()],
   site: "https://atomeon.github.io/", 
-  base: "amenify-test-app"
+  base: "amenify-test-layout"
 });
