@@ -1,38 +1,60 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
-import {TestLayout} from '../components/testLayout';
+	import Layout from '../layouts/Layout.astro';
+	import Card from '../components/Card.astro';
+	import { Header } from '../components/header';
 ---
-<Layout title="Welcome to Astro.">
-	<main>
-		<TestLayout/>
-		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
-		<p class="instructions">
-			Check out the <code>src/pages</code> directory to get started.<br/>
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
-		<ul role="list" class="link-card-grid">
-			<Card href="https://docs.astro.build/" title="Documentation" body="Learn how Astro works and explore the official API docs." /> 
-			<Card href="https://astro.build/integrations/" title="Integrations" body="Supercharge your project with new frameworks and libraries." /> 
-			<Card href="https://astro.build/themes/" title="Themes" body="Explore a galaxy of community-built starter themes." /> 
-			<Card href="https://astro.build/chat/" title="Chat" body="Come say hi to our amazing Discord community. ❤️" />
-		</ul>
-	</main>
+
+<Layout title="Amenify: Welcome page">
+
+	<Header />
+	<h1>Welcome to <span class="text-gradient">Astro</span></h1>
+	<p class="instructions">
+		Check out the <code>src/pages</code> directory to get started.<br />
+		<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
+	</p>
+	<ul role="list" class="link-card-grid">
+		<Card href="https://docs.astro.build/" title="Documentation" body="Learn how Astro works and explore the official API docs." />
+		<Card href="https://astro.build/integrations/" title="Integrations" body="Supercharge your project with new frameworks and libraries." />
+		<Card href="https://astro.build/themes/" title="Themes" body="Explore a galaxy of community-built starter themes." />
+		<Card href="https://astro.build/chat/" title="Chat" body="Come say hi to our amazing Discord community. ❤️" />
+	</ul>
 </Layout>
 
-<style>
+
+
+<style is:global>
 	:root {
-		--astro-gradient: linear-gradient(0deg,#4F39FA, #DA62C4);
+		--font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
+		--font-size-lg: clamp(1.2rem, 0.7vw + 1.2rem, 1.5rem);
+		--font-size-xl: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
+
+		--color-text: hsl(12, 5%, 4%);
+		--color-bg: #E3E3E3;
+		--color-border: hsl(17, 24%, 90%);
 	}
 
-	h1 {
-		margin: 2rem 0;
+	html {
+		font-family: system-ui, sans-serif;
+		font-size: var(--font-size-base);
+		color: var(--color-text);
+		background-color: var(--color-bg);
+	}
+
+	body {
+		margin: 0
 	}
 
 	main {
-		margin: auto;
-    	padding: 1em;
-		max-width: 60ch;
+		max-width: 375px;
+		margin: 0 auto;
+		background: #fff;
+	}
+</style>
+
+<style>
+	:root {
+		--color-brand: #a8d1d0;
+		--astro-gradient: linear-gradient(0deg, #4F39FA, #DA62C4);
 	}
 
 	.text-gradient {
@@ -44,32 +66,5 @@ import {TestLayout} from '../components/testLayout';
 		background-position-y: 100%;
 		border-radius: 0.4rem;
 		animation: pulse 4s ease-in-out infinite;
-	}
-
-	@keyframes pulse {
-		0%, 100% { background-position-y: 0%; }
-		50% { background-position-y: 80%; }
-	}
-
-	.instructions {
-		line-height: 1.6;
-		margin: 1rem 0;
-		background: #4F39FA;
-		padding: 1.0rem;
-		border-radius: 0.4rem;
-		color: var(--color-bg);
-	}
-
-	.instructions code {
-		font-size: 0.875em;
-		border: 0.1em solid var(--color-border);
-		border-radius: 4px;
-		padding: 0.15em 0.25em;
-	}
-	.link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-		gap: 1rem;
-		padding: 0;
 	}
 </style>

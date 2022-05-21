@@ -1,0 +1,18 @@
+.header {
+  background: #00121a;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  padding-bottom: 17px;
+  padding-top: 46px;
+  vertical-align: center;
+}
+
+.header img {
+  vertical-align: bottom;
+}
+
+.address:after {
+  content: ' + ';
+  color: var(--color-brand);
+}
