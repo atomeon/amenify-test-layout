@@ -4,6 +4,10 @@
   padding-right: var(--content-indent);
 }
 
+.slideContainer::-webkit-scrollbar {
+  display: none;
+}
+
 .slideContainer li:not(:last-child) {
   margin-right: 8px;
 }
