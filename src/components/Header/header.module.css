@@ -6,13 +6,10 @@
   padding-bottom: 17px;
   padding-top: 46px;
   letter-spacing: 0.4px;
+  display: flex;
+  align-items: center;
 }
-
-.header img {
-  vertical-align: bottom;
-}
-
 .address:after {
-  content: ' + ';
+  content: '\00a0+\00a0';
   color: var(--color-brand);
 }
