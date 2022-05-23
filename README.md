@@ -1,9 +1,10 @@
 # Test task for [Amenify](https://www.amenify.com) 
 
+
 ## ⚙️ Core
 The task made via static site builder [Astro](https://astro.build)
 
-Project hosted on github pages: https://atomeon.github.io/amenify-test-layout/
+> Project hosted on github pages: https://atomeon.github.io/amenify-test-layout/
 
 ## 🚀 Project Structure
 
