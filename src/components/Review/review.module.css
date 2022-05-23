@@ -1,0 +1,47 @@
+.section {
+  padding-top: 32px;
+  padding-bottom: 30px;
+}
+
+.image {
+  object-fit: cover;
+  display: block;
+}
+
+.title {
+  font-weight: 500;
+  letter-spacing: 0.15px;
+}
+
+.title span {
+  font-weight: 400;
+}
+
+.review {
+  letter-spacing: 0.15px;
+  font-weight: 400;
+}
+
+.info {
+  padding: 17px 9px;
+}
+
+.overview {
+  letter-spacing: 0.4px;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.overview div:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+.overview img {
+  vertical-align: top;
+}
+
+.review p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.8;
+}

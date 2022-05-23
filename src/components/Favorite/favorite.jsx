@@ -6,7 +6,7 @@ import styles from './favorite.module.css';
 
 export const Favorite = ({category, plan, price}) => {
 	return (
-		<Card>
+		<Card parent="ul">
 			<div className="mb4">{category}</div>
 			<div className="mb12">{plan} <span className="secondary-text">{price}</span></div>
 			<div className={styles.favoriteBottom}>

@@ -5,7 +5,7 @@ import styles from './popular.module.css';
 
 export const PopularCard = ({category, plan, price, img}) => {
 	return (
-		<Card className={styles.popularCard}>
+		<Card className={styles.popularCard} parent="ul">
 				<div className="mb4">{category}</div>
 				<div className="mb4">{plan} </div>
 				<div className="secondary-text mb8">{price}</div>
