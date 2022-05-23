@@ -1,5 +1,5 @@
 .header {
-  background: #00121a;
+  background: var(--color-black);
   color: #fff;
   text-align: center;
   font-size: 12px;
