@@ -1,4 +1,4 @@
-import { Feature } from '../feature/feature';
+import { Feature } from '../Feature';
 import { features } from './mock';
 import styles from './features.module.css';
 

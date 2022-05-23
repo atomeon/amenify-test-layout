@@ -1,9 +1,9 @@
 ---
 	import Layout from '../layouts/Layout.astro';
 	import Card from '../components/Card.astro';
-	import { Header } from '../components/header';
-	import { InfoPanel } from '../components/infoPanel';
-	import { Features } from '../components/features';
+	import { Header } from '../components/Header';
+	import { InfoPanel } from '../components/InfoPanel';
+	import { Features } from '../components/Features';
 ---
 
 <Layout title="Amenify: Welcome page">
@@ -32,16 +32,5 @@
 		--color-brand: #a8d1d0;
 		--color-secondary: rgba(0, 18, 26, 0.54);
 		--content-indent: 16px;
-	}
-
-	.text-gradient {
-		font-weight: 900;
-		background-image: var(--astro-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-size: 100% 200%;
-		background-position-y: 100%;
-		border-radius: 0.4rem;
-		animation: pulse 4s ease-in-out infinite;
 	}
 </style>
