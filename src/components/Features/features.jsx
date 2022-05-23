@@ -7,7 +7,7 @@ export const Features = () => {
 	return (
 		<section className={styles.features}>
 			{
-				features.map((feature) => <Feature {...feature}/>)
+				features.map((feature) => <Feature key={feature.title} {...feature}/>)
 			}
 		</section>
 	);

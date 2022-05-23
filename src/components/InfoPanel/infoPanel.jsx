@@ -1,5 +1,3 @@
-import React from 'react';
-
 import styles from './infoPanel.module.css';
 
 export const InfoPanel = () => {

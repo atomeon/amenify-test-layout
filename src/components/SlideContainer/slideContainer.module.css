@@ -1,0 +1,15 @@
+.slideContainer {
+  overflow-y: scroll;
+  display: flex;
+}
+
+.slideContainer li:not(:last-child) {
+  margin-right: 8px;
+}
+
+.slideContainer li:first-child {
+  margin-left: 16px;
+}
+.slideContainer li:last-child {
+  margin-right: 16px;
+}

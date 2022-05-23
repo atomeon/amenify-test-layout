@@ -1,1 +1,1 @@
-export { TestLayout } from './testLayout';
+export { Favorites } from './favorites';

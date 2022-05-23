@@ -1,0 +1,9 @@
+.favoriteBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.favoriteBottom img {
+  margin-bottom: 4px;
+}

@@ -1,0 +1,11 @@
+.card {
+  border: 1px solid var(--color-brand);
+  border-radius: 4px;
+  width: 226px;
+  padding: 10px 15px;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  font-weight: 500;
+  flex-shrink: 0;
+  cursor: pointer;
+}

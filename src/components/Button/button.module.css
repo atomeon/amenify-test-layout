@@ -1,0 +1,24 @@
+.button {
+  background: var(--color-black);
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+  margin: 0;
+  font-weight: 500;
+}
+
+.buttonL {
+  padding: 4px 10px;
+  border-radius: 100px;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  line-height: 24px;
+}
+
+.buttonS {
+  padding: 1.5px 6px;
+  border-radius: 64px;
+  font-size: 12px;
+  letter-spacing: 0.15px;
+}
