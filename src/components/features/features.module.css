@@ -1,0 +1,7 @@
+.features {
+  display: flex;
+  justify-content: space-between;
+  padding-right: var(--content-indent);
+  padding-left: var(--content-indent);
+  padding-top: 30px;
+}

@@ -1,0 +1,14 @@
+.feature {
+  text-align: center;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 11px;
+}
+
+.subTitle {
+  font-weight: 500;
+  font-size: 11px;
+  color: var(--color-secondary);
+}
