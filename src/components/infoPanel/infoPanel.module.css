@@ -1,0 +1,15 @@
+.infoPanel {
+  background: var(--color-brand);
+  padding: 10px 16px 12px;
+  letter-spacing: 0.4px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.infoPanel span {
+  font-weight: 400;
+}

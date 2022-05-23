@@ -2,11 +2,13 @@
 	import Layout from '../layouts/Layout.astro';
 	import Card from '../components/Card.astro';
 	import { Header } from '../components/header';
+	import { InfoPanel } from '../components/infoPanel/infoPanel';
 ---
 
 <Layout title="Amenify: Welcome page">
 
 	<Header />
+	<InfoPanel />
 	<h1>Welcome to <span class="text-gradient">Astro</span></h1>
 	<p class="instructions">
 		Check out the <code>src/pages</code> directory to get started.<br />
@@ -22,39 +24,10 @@
 
 
 
-<style is:global>
-	:root {
-		--font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
-		--font-size-lg: clamp(1.2rem, 0.7vw + 1.2rem, 1.5rem);
-		--font-size-xl: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
-
-		--color-text: hsl(12, 5%, 4%);
-		--color-bg: #E3E3E3;
-		--color-border: hsl(17, 24%, 90%);
-	}
-
-	html {
-		font-family: system-ui, sans-serif;
-		font-size: var(--font-size-base);
-		color: var(--color-text);
-		background-color: var(--color-bg);
-	}
-
-	body {
-		margin: 0
-	}
-
-	main {
-		max-width: 375px;
-		margin: 0 auto;
-		background: #fff;
-	}
-</style>
 
 <style>
 	:root {
 		--color-brand: #a8d1d0;
-		--astro-gradient: linear-gradient(0deg, #4F39FA, #DA62C4);
 	}
 
 	.text-gradient {
