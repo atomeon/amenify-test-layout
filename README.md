@@ -8,7 +8,7 @@ The task made via static site builder [Astro](https://astro.build)
 
 ## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
+Inside project you'll see the following structure:
 
 ```
 /
