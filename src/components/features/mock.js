@@ -7,21 +7,21 @@ export const features = [
 	{
 		src: CleaningImg,
 		title: 'Cleaning',
-		subTitle: 'From 75'
+		subTitle: 'From $75'
 	},
 	{
 		src: ChoresImg,
 		title: 'Chores',
-		subTitle: 'From 5'
+		subTitle: 'From $5'
 	},
 	{
 		src: CarWashImg,
 		title: 'Car Washing',
-		subTitle: 'From 5'
+		subTitle: 'From $5'
 	},
 	{
 		src: MealImg,
 		title: 'Meal Delivery',
-		subTitle: 'From 5'
+		subTitle: 'From $5'
 	}
 ]
