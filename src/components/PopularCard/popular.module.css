@@ -1,0 +1,9 @@
+.popularCard {
+  position: relative;
+}
+
+.popularCard img {
+  position: absolute;
+  right: 17px;
+  bottom: 26px;
+}

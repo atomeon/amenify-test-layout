@@ -1,0 +1,1 @@
+export { PopularCard } from './popularCard.jsx';

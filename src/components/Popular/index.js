@@ -1,1 +1,1 @@
-export { TestLayout } from './testLayout';
+export { Popular } from './popular';

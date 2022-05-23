@@ -1,4 +1,4 @@
-import Favorite from '../Favorite/favorite';
+import { Favorite } from '../Favorite';
 import { SlideContainer } from '../SlideContainer/slideContainer';
 import styles from './favorites.module.css';
 import { favorites } from './mock';

@@ -1,6 +1,7 @@
 .slideContainer {
   overflow-y: scroll;
   display: flex;
+  padding-right: var(--content-indent);
 }
 
 .slideContainer li:not(:last-child) {
@@ -9,7 +10,4 @@
 
 .slideContainer li:first-child {
   margin-left: 16px;
-}
-.slideContainer li:last-child {
-  margin-right: 16px;
 }

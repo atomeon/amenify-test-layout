@@ -1,1 +1,1 @@
-export { Card } from './favorite.jsx';
+export { Favorite } from './favorite.jsx';

@@ -1,0 +1,10 @@
+.section {
+  padding-top: 30px;
+  padding-right: calc(- var(--content-indent));
+  padding-left: calc(- var(--content-indent));
+}
+
+.section h2 {
+  padding-right: var(--content-indent);
+  padding-left: var(--content-indent);
+}

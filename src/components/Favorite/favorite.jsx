@@ -4,7 +4,7 @@ import { Button } from "../Button";
 
 import styles from './favorite.module.css';
 
-const Favorite = ({category, plan, price}) => {
+export const Favorite = ({category, plan, price}) => {
 	return (
 		<Card>
 			<div className="mb4">{category}</div>
@@ -18,5 +18,3 @@ const Favorite = ({category, plan, price}) => {
 		</Card>
 	);
 }
-
-export default Favorite;
